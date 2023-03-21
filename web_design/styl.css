@@ -1,0 +1,318 @@
+*
+{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    height:200px;
+    background-color: rgb(253, 200, 131);
+    text-align: center;
+    line-height: 50px;;
+}
+
+nav li{
+    display:inline-table;
+    
+}
+
+nav li a{
+    
+    color:black;
+    text-decoration: none;
+    font-size: bold;
+    letter-spacing: 2px;
+    padding-right: 3px;
+    padding-left:30px;
+    padding-top: 20px;
+}
+
+
+nav li a:hover{
+    
+    color:azure;
+    text-decoration: none;
+    font-size: bold;
+    letter-spacing: 2px;
+    padding-right: 3px;
+    padding-left:30px;
+    padding-top: 20px;
+    transition:color.9s;
+}
+.header-img
+{
+    position:relative;
+     height:800px;
+    background-image: url('data/background.png');
+    background-size:cover;
+    background-position: 0 40%;
+}
+
+.header-text
+{
+    position: absolute;
+    top:40%;
+    left:20%;
+    transform:translate(-50%,-50%);
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.header-bg
+{
+    position: relative;
+}
+
+h1
+{
+    font-size: 100px;
+}
+button{
+    padding: 10px ;
+    border:none;
+    background-color: rgb(189, 235, 219);
+    margin-top: 85%;
+    width: 200px;
+    height: 60px;
+    top:50%;
+    left:90%;
+}
+.btn1
+{
+    width: 120px;
+    height: 40px;
+    border:none;
+    background-color:  rgb(235, 162, 53);
+    position: absolute;
+    top:90%;
+    left:71%;
+    font-weight: bold;
+
+
+}
+
+.btn2
+{
+    width: 120px;
+    height: 40px;
+    border:none;
+    background-color: rgb(235, 162, 53);
+    position: absolute;
+    top:90%;
+    left:16%;
+    font-weight: bold;
+
+}
+.btn3
+{
+    width: 120px;
+    height: 40px;
+    border:none;
+    background-color:  rgb(235, 162, 53);
+    position: absolute;
+    top:90%;
+    left:43%;
+    font-weight: bold;
+
+
+}
+
+.p1
+{
+    position: absolute;
+    top:1650px;
+    left:16%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+
+}
+.p2
+{
+    position: absolute;
+    top:1650px;
+    left:43%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+}
+.p3
+{
+    position: absolute;
+    top:1650px;
+    left:71%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+
+}
+
+main{
+    /*margin:120px 80px 60px auto;*/
+    
+    
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    display:inline-block;
+    margin-top:10%;
+    margin-bottom: 15%;
+    
+}
+
+main h2
+{
+
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.pop-midlle
+{
+    margin-top: 30%;
+    height:500px;
+    
+    margin-bottom: 20%;
+    padding-bottom: 40%;
+    padding-right: -30%;
+    
+    padding: 30px;
+    margin:0px 0px 0px 0px;
+   
+    
+    
+    
+     background-color: rgb(153, 216, 216);
+     background-position: 0 0%;
+     display: block;
+     
+     
+    line-height: 50px;;
+    
+   
+     
+     
+}
+.pop-midlle h2{
+    
+    font-size: 40px;
+    font-weight: bold;
+}
+/*
+.amongus-photo
+{
+   top:20%;
+   left:5%;
+   right:90%;
+   bottom: 70%;
+   
+
+   
+    
+    
+    
+}*/
+
+.main-img
+{
+
+    margin:0;
+    padding: 0;
+    line-height: 50px;
+    max-width: 1200px;
+    width:100%
+    
+    
+    
+
+}
+
+
+.p{
+    padding-left: 20%;
+    padding-right: 40%;
+}
+.main-img ul li{
+  display: inline-table;
+  
+}
+ 
+.square-photo
+{
+    margin-left: -500%;
+}
+.round-photo
+{
+    margin-right:-500%;
+}
+
+.pop-end
+{
+    position: relative;
+    height: 400px;
+    background-image: url('data/bg-grid.png');
+    background-size:cover;
+    background-position: 20% 40%;
+    margin-top:30%;
+}
+.pop-end-img{
+    margin-left:58%;
+    margin-top:-15%;
+    
+    
+}
+
+.btn-buy
+{
+    background-color: rgb(228, 197, 160);
+    height:70px;
+    width: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    
+
+}
+
+
+.pop-end-text
+{
+    margin-right: 15%;
+    margin-left:-30%;
+    margin-top: -20%;
+    text-align:center;
+}
+.pop-end-text h2{
+    
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+
+footer
+{
+    height:80px;
+    background-color: rgb(37, 36, 34);
+    text-align: center;
+    line-height: 50px;;
+    
+}
+footer li{
+    display: inline-table;
+}
+footer li a
+{
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+    letter-spacing: 2px;
+    padding-right: 3px;
+    padding-left:30px;
+    padding-top: 20px;
+}
